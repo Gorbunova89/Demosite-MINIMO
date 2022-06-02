@@ -1,0 +1,60 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+    /* меньше, будет появляться горизонтальный скрол */
+    min-width: 320px;
+    color: #626262;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* делаем картинку адаптивной */
+img {
+    min-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #b4ad9e;
+}
+
+a:hover {
+    color: #898377
+}
+
+
+
+
+/* Large devices, wide screens */
+@media  only screen and (max-width: 1200px){
+    
+}
+
+@media  only screen and (max-width: 1199px){
+    
+}
+
+/* Medium devices, desktops */
+@media  only screen and (max-width: 992px){
+    
+}
+
+@media  only screen and (max-width: 991px){
+    
+}
+
+@media  only screen and (max-width: 768px){
+    
+}
+
+/* small devices, tablets */
+@media  only screen and (max-width: 767px){
+    
+}
+
+/* extra small devices, phones */
+@media  only screen and (max-width: 480px){
+    
+}
+
