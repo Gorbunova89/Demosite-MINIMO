@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inconsolata', monospace;
+    
     font-family: 'Playfair Display', serif;
     font-family: 'Ubuntu', sans-serif;
     /* меньше, будет появляться горизонтальный скрол */
@@ -23,7 +23,39 @@ a:hover {
     color: #898377
 }
 
+header navbar-light {
+    background-color: #fff;
+}
 
+header .navbar-brand {
+    font-family: 'Inconsolata', monospace;
+    font-style: 30px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+header .nav-item {
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+header .nav-item a::after {
+    /* контент пустой */
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #ccc;
+    height: 1px;
+    /* скрываю подчеркивание */
+    transform: scale(0);
+    /* анимация подчеркивания */
+    transition: all .5s;
+}
+
+/* ховер эффект подчеркивание появляется */
+header .nav-item a:hover::after {
+    transform: scale(1);
+}
 
 
 /* Large devices, wide screens */
