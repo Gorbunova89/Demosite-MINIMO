@@ -45,17 +45,30 @@
 
   <!-- Карусель помещаем слайдер в контейнер-->
   <div class="container slider">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <!--carousel-fade доп эффект расстворения при смене фото  -->
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <!-- индикаторы, 4 фото, 4 индикатора  -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+
       <div class="carousel-inner">
+        <!-- у первого слайда active -->
         <div class="carousel-item active">
           <img src="шаблон минимо/img/header-img.jpg" class="d-block w-100" alt="...">
         </div>
-        <!-- <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-item">
+          <img src="https://i.picsum.photos/id/1014/6016/4000.jpg?hmac=yMXsznFliL_Y2E2M-qZEsOZE1micNu8TwgNlHj7kzs8" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div> -->
+          <img src="https://i.picsum.photos/id/1021/2048/1206.jpg?hmac=fqT2NWHx783Pily1V_39ug_GFH1A4GlbmOMu8NWB3Ts" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.picsum.photos/id/1052/4000/2667.jpg?hmac=VG0SPn0166Vw0hWeiJL4uVFbjGRcHnddwL4u0wpqL8Y" class="d-block w-100" alt="...">
+        </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
         data-bs-slide="prev">
@@ -70,6 +83,34 @@
     </div>
   </div>
 
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="single-post">
+          <h3 class="post-category">Photodiary</h3>
+
+          <h2 class="post-title"><a href="#">The perfect weekend getaway</a></h2>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Illum animi autem exercitationem similique dignissimos, 
+            beatae officia explicabo unde quasi, numquam rem? Nulla 
+            mollitia id ratione, accusantium ut dolorum iusto expedita 
+            omnis ea modi molestias qui. Veritatis natus aliquam, 
+            incidunt ad ullam explicabo iste harum sit aliquid vitae eos,
+          molestiae eaque quibusdam, iure numquam esse ut possimus libero 
+          accusantium impedit veniam sunt adipisci expedita obcaecati.
+          Delectus tempora quod eveniet nobis, assumenda recusandae 
+          deserunt culpa nam quos quo similique iste? Porro ipsum 
+          facere nobis perferendis magni quas minus perspiciatis autem
+          tenetur aliquam assumenda reprehenderit et, dicta vero esse
+          exercitationem blanditiis ut eaque.</p>
+
+          <p><a href="#" class="link-more">Leave a comment</a></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <!-- Подключила скрипт из папки jquery -->
