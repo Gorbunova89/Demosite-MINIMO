@@ -102,6 +102,17 @@ header .nav-item a:hover::after {
     border-radius: 0;
 }
 
+.load-more {
+    padding: 1rem 2rem;
+    border-color: #626262;
+    border-radius: 0;
+}
+
+/* load-more находится в spane */
+.load-more span {
+    display: none;
+}
+
 /* Large devices, wide screens */
 @media  only screen and (max-width: 1200px){
     
