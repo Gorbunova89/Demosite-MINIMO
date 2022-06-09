@@ -113,6 +113,65 @@ header .nav-item a:hover::after {
     display: none;
 }
 
+/* сайт "Таблица символов Юникода" */
+.signup {
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+
+.signup h3 {
+    color: #333;
+}
+
+.signup form {
+    margin-top: 70px;
+}
+
+.signup .form-input {
+    position: relative;
+}
+
+.signup .form-control {
+    border: 0;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.signup .form-control:focus {
+    box-shadow: none;
+}
+
+footer {
+    background-color: #cfcece;
+    padding: 40px 0;
+    color: #000;
+}
+
+.footer-left a {
+    color: #000;
+    margin-right: 20px;
+}
+
+.footer-right a {
+    color: #626262;
+    margin-left: 20px;
+}
+
+/* кнопка позиционируется абсолютно относительно данного блока */
+.form-input .btn {
+    position: absolute;
+    /* сдвинули кнопку вправо */
+    right: 0;
+    /* сдвинули кнопку вверх */
+    top: -5px;
+    font-size: 25px;
+}
+
+
+
+
+
 /* Large devices, wide screens */
 @media  only screen and (max-width: 1200px){
     
