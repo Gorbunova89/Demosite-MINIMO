@@ -178,6 +178,9 @@ footer {
 }
 
 @media  only screen and (max-width: 1199px){
+    .grid-posts .card-img-top {
+        max-height: 300px;
+    }
     
 }
 
@@ -187,6 +190,13 @@ footer {
 }
 
 @media  only screen and (max-width: 991px){
+    .grid-posts .card-img-top {
+        max-height: 220px;
+    }
+
+    header .nav-item {
+        margin-left: 0;
+    }
     
 }
 
@@ -196,7 +206,25 @@ footer {
 
 /* small devices, tablets */
 @media  only screen and (max-width: 767px){
+
+    .grid-posts {
+        margin-top: 50px;
+    }
+
+    .grid-posts .card {
+        margin-bottom: 50px;
+    }
+
+    .grid-posts .card-img-top {
+        max-height: 100%;
+    }
     
+}
+
+@media  only screen and (max-width: 767px){
+    .footer-left {
+        margin-bottom: 10px;
+    }
 }
 
 /* extra small devices, phones */
